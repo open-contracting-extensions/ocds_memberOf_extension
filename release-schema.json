@@ -1,0 +1,17 @@
+{
+  "definitions": {
+    "Organization": {
+      "properties": {
+        "memberOf": {
+          "uniqueItems": true,
+          "type": "array",
+          "description": "A list indicate the relationship between a party and some other party, association or grouping.",
+          "title": "Member Of",
+          "items": {
+            "$ref": "#/definitions/OrganizationReference"
+          }
+        }
+      }
+    }
+  }
+}
