@@ -1,6 +1,6 @@
-#MemberOf to party extension
+# Member Of to party extension
 
-##Description
+## Description
 
 The party.memberOf property can be used to indicate the relationship between a party 
 and some other party, association or grouping.
