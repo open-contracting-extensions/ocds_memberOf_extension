@@ -77,3 +77,7 @@ The example above also shows how memberOf can be used to represent arbitrary
 memberships - and does not have to only relate parties, but can relate a party to an 
 association. memberOf is also not restricted to declaring direct parents, 
 but might also be used to declare the top parent of an organisation.
+
+## Issues
+
+Report issues for this extension in the [ocds-extensions repository](https://github.com/open-contracting/ocds-extensions/issues), putting the extension's name in the issue's title.
