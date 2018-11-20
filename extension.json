@@ -1,11 +1,17 @@
 {
   "name": {
-    "en":"Member Of"
+    "en": "Member Of"
   },
-  "description":{
-    "en":"The party.memberOf property can be used to indicate the relationship between a party and some other party, association or grouping."
+  "description": {
+    "en": "The party.memberOf property can be used to indicate the relationship between a party and some other party, association or grouping."
   },
-  "documentationUrl":{
-    "en":"https://github.com/open-contracting/ocds_memberOf_extension"
-  }
+  "documentationUrl": {
+    "en": "https://github.com/open-contracting-extensions/ocds_memberOf_extension"
+  },
+  "compatibility": [
+    "1.1"
+  ],
+  "schemas": [
+    "release-schema.json"
+  ]
 }
