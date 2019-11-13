@@ -58,10 +58,10 @@ We strongly recommend against using `memberOf` unless a use case supports it.
         {
           "id": "PG",
           "name": "Government of Paraguay"
-         },
+        },
         {
-         "id": "PG-RBC01",
-         "name": "Regional buying consortium"
+          "id": "PG-RBC01",
+          "name": "Regional buying consortium"
         }
       ]
     }
