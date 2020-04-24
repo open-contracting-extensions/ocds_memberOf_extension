@@ -9,7 +9,8 @@
           "title": "Member Of",
           "items": {
             "$ref": "#/definitions/OrganizationReference"
-          }
+          },
+          "minItems": 1
         }
       }
     }
