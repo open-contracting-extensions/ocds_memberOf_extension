@@ -5,7 +5,7 @@
         "memberOf": {
           "uniqueItems": true,
           "type": "array",
-          "description": "A list indicate the relationship between a party and some other party, association or grouping.",
+          "description": "The organizations of which this organization is a member.",
           "title": "Member Of",
           "items": {
             "$ref": "#/definitions/OrganizationReference"

@@ -1,10 +1,10 @@
 # Member Of
 
-The `parties.memberOf` field can be used to indicate the relationship between a party and some other party, association or grouping.
+Adds a `memberOf` field to describe the organizations of which an organization is a member.
 
-Is not require that the party identified by `memberOf.id` exists in the parties array, but implementations could choose to include it, so that it is possible to represent a tree-structure of multi-level hierarchy. A `memberOf` object should not be an object in the parties array unless it is semantically a party i.e. "involved in the contracting process". If the party is only referred to by `memberOf`, that's an indication that it's probably not involved in the contracting process.
+The organizations referenced by the `memberOf` array should only have corresponding entries in the `parties` array if they are involved in the contracting process.
 
-We strongly recommend against using `memberOf` unless a use case supports it.
+**We recommend against using this extension, unless a use case supports it, because it describes information that is generally not in the scope of a contracting process.**
 
 ## Example
 
