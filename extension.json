@@ -3,7 +3,7 @@
     "en": "Member Of"
   },
   "description": {
-    "en": "Adds a field to indicate whether a party is a member or sub-organization of another party, association or grouping."
+    "en": "Adds a field to describe the organizations of which an organization is a member."
   },
   "documentationUrl": {
     "en": "https://github.com/open-contracting-extensions/ocds_memberOf_extension"

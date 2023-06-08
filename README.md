@@ -8,6 +8,7 @@ The organizations referenced by the `memberOf` array should only have correspond
 
 ## Example
 
+
 ```json
 {
   "parties": [
@@ -30,12 +31,14 @@ The organizations referenced by the `memberOf` array should only have correspond
 }
 ```
 
+`memberOf` can be used for both direct and indirect memberships.
+
 ```json
 {
   "parties": [
     {
       "id": "12-001",
-      "name": "Presidencia de Paraguay",
+      "name": "Presidencia del Paraguay",
       "identifier": {
         "scheme": "PY-PGN",
         "id": "12-001",
@@ -68,8 +71,6 @@ The organizations referenced by the `memberOf` array should only have correspond
   ]
 }
 ```
-
-The example shows how `memberOf` can be used to represent arbitrary memberships - and does not have to only relate parties, but can relate a party to an association. `memberOf` is also not restricted to declaring direct parents, but might also be used to declare the top parent of an organization.
 
 ## Issues
 
