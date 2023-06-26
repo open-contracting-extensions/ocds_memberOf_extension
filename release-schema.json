@@ -3,13 +3,13 @@
     "Organization": {
       "properties": {
         "memberOf": {
-          "uniqueItems": true,
-          "type": "array",
-          "description": "The organizations of which this organization is a member.",
           "title": "Member Of",
+          "description": "The organizations of which this organization is a member.",
+          "type": "array",
           "items": {
             "$ref": "#/definitions/OrganizationReference"
           },
+          "uniqueItems": true,
           "minItems": 1
         }
       }
